@@ -51,7 +51,7 @@ main p:first-child {
 }
 .tasbeeh {
     background-color: #eee;
-    width: 400px;
+    width: 320px;
     margin: auto;
     display: block;
     padding: 10px;
@@ -93,7 +93,7 @@ main p:first-child {
 
 }
 .doaa p {
-    width: 400px;
+    width: 320px;
     font-size: 1.5em;
     background-color: #eee;
     direction: rtl;
