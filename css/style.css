@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    /* --main-color:rgb(0, 152, 0); */
+    --main-color:rgb(0, 106, 152);
+    width: 100%;
+
+}
+section {
+    padding: 20px;
+    height: 100%;
+}
+header {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+
+}
+nav ul a {
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+    background-color: #eee;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li {
+    display: inline;
+}
+/* h1 {
+    color: var(--main-color);
+    
+} */
+main p:first-child {
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 10px;
+}
+.tasbeeh {
+    background-color: #eee;
+    width: 400px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin: 30px auto;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+.tasbeeh h3 {
+    font-size: 1.5rem;
+}
+.count {
+    background-color: var(--main-color);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: transparent;
+}
+:disabled {
+    background-color: rgb(0, 85, 121);
+}
+.doaa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 100px;
+    text-align: center;
+
+}
+.doaa p {
+    width: 400px;
+    font-size: 1.5em;
+    background-color: #eee;
+    direction: rtl;
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p span {
+    color: var(--main-color);
+    font-weight: 600;
+}
