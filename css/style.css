@@ -13,10 +13,17 @@ section {
     padding: 20px;
     height: 100%;
 }
-section#tasbeeh {
+section#tasbeeh, #masaa{
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
+}
+#masaa, #sabah2 {
+    margin-top: 30px;
+}
+#masaa .tasbeeh, #sabah2 .tasbeeh {
+    width: 350px;
+    direction: rtl;
 }
 header {
     background-color: var(--main-color);
