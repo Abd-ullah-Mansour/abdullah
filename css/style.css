@@ -61,7 +61,8 @@ main p:first-child {
     display: block;
     padding: 10px;
     margin: 30px auto;
-    height: 120px;
+    height: max-content;
+    gap: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
