@@ -56,6 +56,24 @@ nav ul li {
     color: var(--main-color);
     
 } */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+}  
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
 main p:first-child {
     margin: 100px auto 0;
     text-align: center;
