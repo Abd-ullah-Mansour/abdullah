@@ -134,7 +134,8 @@ main p:first-child {
 footer {
     background-color: black;
     text-align: center;
-    height: 40px;
+    height: fit-content;
+    padding: 10px;
     color: #eee;
     display: flex;
     align-items: center;
